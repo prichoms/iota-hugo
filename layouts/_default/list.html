@@ -1,9 +1,10 @@
+
 {{ define "main" }}
 
 {{ partial "page-header.html" . }}
 
-<!-- checking blog -->
-{{ if or (or (eq .Section "post") (eq .Section "blog")) (or (eq .Section "categories") (eq .Section "tags") )}}
+<!-- checking project -->
+{{ if or (or (eq .Section "post") (eq .Section "projects")) (or (eq .Section "categories") (eq .Section "tags") )}}
 
 <section class="section">
   <div class="container">
