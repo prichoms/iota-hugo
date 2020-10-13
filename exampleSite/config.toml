@@ -59,7 +59,7 @@ copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethu
 description = "This is meta description"
 footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
 logo = "images/iota_logo.png"
-logo_width = "200px"
+logo_width = "100px"
 [params.navigation_button]
 enable = true
 label = "Get Started"
