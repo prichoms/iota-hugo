@@ -33,11 +33,13 @@
       </div>
       {{ range .feature_item }}
       <div class="col-md-4 col-sm-6 mb-4">
+        <a href="{{ .link | safeURL }}" >
         <div class="feature-card text-center">
           <i class="{{.icon}} mb-3"></i>
           <h4 class="mb-2">{{ .name | title }}</h4>
           <p>{{ .content | markdownify }}</p>
         </div>
+        </a>
       </div>
       {{ end }}
     </div>
