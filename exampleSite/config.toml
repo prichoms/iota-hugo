@@ -15,9 +15,6 @@ name = "About Us"
 [[menu.company]]
 URL = "#"
 name = "Quick Start"
-[[menu.company]]
-URL = "pricing"
-name = "Pricing"
 [[menu.main]]
 URL = "projects"
 name = "Projects"
