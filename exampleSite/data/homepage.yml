@@ -29,36 +29,36 @@ feature:
     - name: "Hackathon/Workshops"
       icon: "ti-user"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      link: "#"
+      link: "/teams/#Hackathon%2FWorkshops"
 
     # feature item loop
     - name: "Outreach"
       icon: "ti-rss"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      link: "#"
+      link: "/teams/#Outreach"
 
     # feature item loop
     - name: "Projects"
       icon: "ti-write"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      link: "#"
+      link: "/teams/#Projects"
 
     # feature item loop
     - name: "Review"
       icon: "ti-bar-chart"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      link: "#"
+      link: "/teams/#Review"
       # feature item loop
     - name: "Sessions"
       icon: "ti-blackboard"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      link: "#"
+      link: "/teams/#Sessions"
 
     # feature item loop
     - name: "Social"
       icon: "ti-comments"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      link: "#"
+      link: "/teams/#Social"
 
 ######################### Service #####################
 service:
