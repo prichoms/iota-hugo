@@ -17,13 +17,13 @@ feature:
     - name: "Blogs/Podcast"
       icon: "ti-microphone"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      link: "#"
+      link: "/teams/#Blogs%/%Podcast"
 
     # feature item loop
     - name: "Design"
       icon: "ti-palette"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      link: "#"
+      link: "/teams/#Design"
 
     # feature item loop
     - name: "Hackathon/Workshops"
