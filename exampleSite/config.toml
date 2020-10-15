@@ -47,8 +47,8 @@ name = "Privacy Policy"
 URL = "terms-conditions"
 name = "Terms & Conditions"
 [[menu.support]]
-URL = "faq"
-name = "FAQ"
+URL = "teams"
+name = "Teams"
 [params]
 author = "Themefisher"
 contact_form_action = "#"
