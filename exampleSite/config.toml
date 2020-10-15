@@ -20,16 +20,16 @@ URL = "projects"
 name = "Projects"
 weight = 1
 [[menu.main]]
+URL = "teams"
+name = "Teams"
+weight = 2
+[[menu.main]]
 URL = "pricing"
 name = "Pricing"
-weight = 2
+weight = 3
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 3
-[[menu.main]]
-URL = "teams"
-name = "Teams"
 weight = 4
 [[menu.product]]
 URL = "pricing"
