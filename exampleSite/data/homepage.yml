@@ -77,13 +77,13 @@ service:
         link: "#"
 
     # service item loop
-    - title: "It is a privately owned Information and cyber security company"
+    - title: "Events"
       images:
         - "images/service-1.png"
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+      content: "About events. Upcoming Event"
       button:
         enable: true
-        label: "Check it out"
+        label: "Hacktoberfest"
         link: "#"
 
     # service item loop
