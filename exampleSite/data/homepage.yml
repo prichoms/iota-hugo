@@ -45,7 +45,7 @@ feature:
 
     # feature item loop
     - name: "Review"
-      icon: "ti-bar-chart-alt"
+      icon: "ti-bar-chart"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
       link: "#"
       # feature item loop
