@@ -17,7 +17,7 @@ feature:
     - name: "Blogs/Podcast"
       icon: "ti-microphone"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-      link: "/teams/#Blogs%/%Podcast"
+      link: "/teams/#Blogs%2FPodcast"
 
     # feature item loop
     - name: "Design"
