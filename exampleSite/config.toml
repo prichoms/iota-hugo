@@ -77,6 +77,10 @@ link = "plugins/slick/slick.min.js"
 enable = false
 preloader = ""
 [[params.social]]
+icon = "ti-instagram"
+link = "#"
+title = "instagram"
+[[params.social]]
 icon = "ti-facebook"
 link = "#"
 title = "facebook"
@@ -85,10 +89,10 @@ icon = "ti-twitter-alt"
 link = "#"
 title = "twitter"
 [[params.social]]
-icon = "ti-skype"
-link = "#"
-title = "skype"
-[[params.social]]
 icon = "ti-linkedin"
 link = "#"
 title = "linkedin"
+[[params.social]]
+icon = "ti-youtube"
+link = "#"
+title = "youtube"
