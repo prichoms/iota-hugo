@@ -19,7 +19,9 @@
     display: inline-block;
   }
 }
-
+footer {
+  background-color: $border-color;
+}
 .footer-list a {
   display: block;
   padding: 5px 0;
