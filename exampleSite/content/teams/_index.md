@@ -1,5 +1,5 @@
 ---
-title: "Frequently Asked Questions"
+title: "Teams"
 subtitle: ""
 # meta description
 description: "This is meta description"

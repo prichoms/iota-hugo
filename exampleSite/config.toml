@@ -28,8 +28,8 @@ URL = "contact"
 name = "Contact"
 weight = 3
 [[menu.main]]
-URL = "faq"
-name = "FAQ"
+URL = "teams"
+name = "Teams"
 weight = 4
 [[menu.product]]
 URL = "pricing"

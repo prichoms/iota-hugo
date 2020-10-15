@@ -152,12 +152,12 @@ textarea.form-control {
   }
 }
 
-.check-mark{
+.marker{
   position: relative;
   padding-left: 0px;
   &::before{
     position: absolute;
-    content: "\e64c";
+    content: "\261B";
     font-family: $icon-font;
     color: $white;
     height: 25px;
