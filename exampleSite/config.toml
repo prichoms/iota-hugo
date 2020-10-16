@@ -78,21 +78,21 @@ enable = false
 preloader = ""
 [[params.social]]
 icon = "ti-instagram"
-link = "#"
+link = "https://www.instagram.com/iota_iiits/"
 title = "instagram"
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
+link = "https://www.facebook.com/IOTA.IIITS/"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/IiitsIota"
 title = "twitter"
 [[params.social]]
 icon = "ti-linkedin"
-link = "#"
+link = "https://www.linkedin.com/company/iota-iiits/?viewAsMember=true"
 title = "linkedin"
 [[params.social]]
 icon = "ti-youtube"
-link = "#"
+link = "https://youtube.com/channel/UCjgxVYzHDlEWZZbCrjC1JSA"
 title = "youtube"
