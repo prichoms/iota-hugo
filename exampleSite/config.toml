@@ -24,16 +24,16 @@ URL = "teams"
 name = "Teams"
 weight = 2
 [[menu.main]]
-URL = "pricing"
-name = "Pricing"
+URL = "members"
+name = "Members"
 weight = 3
 [[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 4
 [[menu.product]]
-URL = "pricing"
-name = "Pricing"
+URL = "members"
+name = "Members"
 [[menu.product]]
 URL = "#"
 name = "Platform"

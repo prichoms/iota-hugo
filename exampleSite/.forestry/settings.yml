@@ -31,8 +31,8 @@ sections:
   path: exampleSite/content/contact/_index.md
   label: Contact
 - type: document
-  path: exampleSite/content/pricing/_index.md
-  label: Pricing
+  path: exampleSite/content/members/_index.md
+  label: Members
 - type: document
   path: exampleSite/content/privacy-policy/_index.md
   label: Privacy Policy
