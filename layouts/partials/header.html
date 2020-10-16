@@ -1,6 +1,6 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation">
-  {{ $address := substr .URL 1}}
+  {{ $address := substr .URL 1 -1}}
   <p>{{ $address }}</p>
   <div class="container">
     <!-- navbar -->
