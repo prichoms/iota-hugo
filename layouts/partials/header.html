@@ -17,16 +17,12 @@
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-              {{ .Name }}
+              {{ .Name }}{{.Site.BaseURL}}
             </a>
             <div class="dropdown-menu">
               {{ range .Children }}
-              <p>{{.Site.BaseURL}} {{site.Title}}</p>
-              {{ if eq .URL .Site.BaseURL }}
-              <a class="dropdown-item active" href="{{ .URL | absURL }}">{{ .Name }}</a>
-              {{ else }}
               <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
-              {{ end }}{{ end }}
+              {{ end }}
             </div>
           </li>
           {{ else }}
