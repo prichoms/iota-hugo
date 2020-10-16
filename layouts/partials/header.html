@@ -1,6 +1,10 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation">
+  {{ if eq (len .URL) 1}}
+  {{ $address := substr .URL 1}}
+  {{ else }}
   {{ $address := substr .URL 1 -1}}
+  {{ end }}
   <p>{{ $address }}</p>
   <div class="container">
     <!-- navbar -->
