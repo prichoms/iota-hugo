@@ -17,7 +17,7 @@ name = "Project 1"
 URL = "projects/post-2/"
 name = "Project 2"
 [[menu.main]]
-URL = "/"
+URL = ""
 name = "Home"
 weight = 1
 [[menu.main]]
