@@ -1,5 +1,6 @@
 {{ "<!-- navigation -->" | safeHTML }}
 <header class="navigation">
+  {{ $address := .URL}}
   {{ if eq (len .URL) 1}}
   {{ $address := substr .URL 1}}
   {{ else }}
