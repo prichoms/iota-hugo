@@ -9,12 +9,12 @@ theme = "bigspring"
 title = "IOTA"
 [markup.goldmark.renderer]
 unsafe = true
-[[menu.company]]
-URL = "#"
-name = "About Us"
-[[menu.company]]
-URL = "#"
-name = "Quick Start"
+[[menu.project]]
+URL = "projects/post-1/"
+name = "Project 1"
+[[menu.project]]
+URL = "projects/post-2/"
+name = "Project 2"
 [[menu.main]]
 URL = "projects"
 name = "Projects"
@@ -31,13 +31,13 @@ weight = 3
 URL = "contact"
 name = "Contact"
 weight = 4
-[[menu.product]]
+[[menu.nav]]
 URL = "members"
 name = "Members"
-[[menu.product]]
+[[menu.nav]]
 URL = "#"
 name = "Platform"
-[[menu.product]]
+[[menu.nav]]
 URL = "#"
 name = "Features"
 [[menu.support]]
