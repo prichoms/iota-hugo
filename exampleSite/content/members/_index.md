@@ -5,6 +5,5 @@ subtitle: ""
 description: "This is meta description"
 draft: false
 ---
-{{< gallery >}}
-  {{< snap-dir srcdir="/images/mem/" >}}
-{{< /gallery >}}
+
+{{< gallery dir="/images/mem/" />}} {{< load-photoswipe >}}
