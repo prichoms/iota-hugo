@@ -32,14 +32,20 @@ URL = "contact"
 name = "Contact"
 weight = 4
 [[menu.nav]]
+URL = "/"
+name = "Home"
+[[menu.nav]]
+URL = "projects"
+name = "Projects"
+[[menu.nav]]
+URL = "teams"
+name = "Teams"
+[[menu.nav]]
 URL = "members"
 name = "Members"
 [[menu.nav]]
-URL = "#"
-name = "Platform"
-[[menu.nav]]
-URL = "#"
-name = "Features"
+URL = "contact"
+name = "Contact"
 [[menu.support]]
 URL = "privacy-policy"
 name = "Privacy Policy"
