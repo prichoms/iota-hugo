@@ -27,7 +27,6 @@
           </li>
           {{ else }}
           <li class="nav-item">
-            <p>{{.Site.BaseURL}}</p>
             <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
           </li>
           {{ end }}
