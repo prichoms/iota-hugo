@@ -6,4 +6,4 @@ description: "This is meta description"
 draft: false
 ---
 
-{{< gallery dir="/images/mem/" />}} {{< load-photoswipe >}}
+{{< gallery dir="images/mem" />}} {{< load-photoswipe >}}
