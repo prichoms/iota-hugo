@@ -13,9 +13,9 @@
   &:hover {
     color: $white;
   }
-}
-.current-link {
-  color: $white;
+  &.current-link {
+    color: $white;
+  }
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
