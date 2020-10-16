@@ -21,6 +21,7 @@
             </a>
             <div class="dropdown-menu">
               {{ range .Children }}
+              <p>{{.Site.BaseURL}} {{site.Title}}</p>
               {{ if eq .URL .Site.BaseURL }}
               <a class="dropdown-item active" href="{{ .URL | absURL }}">{{ .Name }}</a>
               {{ else }}
