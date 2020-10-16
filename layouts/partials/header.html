@@ -32,7 +32,7 @@
             {{ if eq $address .URL }}
             <a class="nav-link active" href="{{ .URL | absURL }}">{{ .URL }}</a>
             {{ else }}
-            <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
+            <a class="nav-link" href="{{ .URL | absURL }}">{{ .URL }}</a>
             {{ end }}
           </li>
           {{ end }}
