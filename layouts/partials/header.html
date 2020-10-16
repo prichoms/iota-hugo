@@ -17,7 +17,7 @@
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
-              {{ .Name }}{{.Site.BaseURL}}
+              {{ .Site.BaseURL .URL }}
             </a>
             <div class="dropdown-menu">
               {{ range .Children }}
