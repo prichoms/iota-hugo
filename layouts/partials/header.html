@@ -1,6 +1,7 @@
 {{ "<!-- navigation -->" | safeHTML }}
-{{ $address := .Permalink}}
 <header class="navigation">
+  {{ $address := .BaseURL}}
+  <p>{{ $address }}</p>
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
