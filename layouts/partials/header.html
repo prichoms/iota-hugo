@@ -6,7 +6,6 @@
   {{ else }}
   {{ $address = substr .URL 1 -1}}
   {{ end }}
-  <p>{{ $address }}</p>
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -34,9 +33,8 @@
           </li>
           {{ else }}
           <li class="nav-item">
-            <p>{{$address}} {{.URL}}</p>
             {{ if eq $address .URL }}
-            <a class="nav-link active" href="{{ .URL | absURL }}">{{ .Name }}</a>
+            <a class="nav-link current-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
             {{ else }}
             <a class="nav-link" href="{{ .URL | absURL }}">{{ .Name }}</a>
             {{ end }}
